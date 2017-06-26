@@ -6,7 +6,7 @@
 1. 引入js文件，例如
 
 ``` html
-<script src="imgCompress.js"></script>
+<script src="timer.js"></script>
 ```
 
 2. 使用方法
@@ -24,8 +24,6 @@
             inFn :function (value) {
                 //定时器执行时所要执行方法
                 console.log(value);
-                document.getElementById("minute").innerHTML = value.minute;
-                document.getElementById("second").innerHTML = value.second;
             },
             endFn :function () {
                 //定时器结束时所要执行方法
